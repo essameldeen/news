@@ -33,10 +33,14 @@ android {
 
 dependencies {
 
+    implementation project(":common:common_utils")
     implementation Dependencies.core
     implementation Dependencies.appCompat
     implementation Dependencies.androidMaterial
     implementation Dependencies.constraintLayout
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     testImplementation TestImplementation.junit
     androidTestImplementation AndroidTestImplementation.junit
     androidTestImplementation AndroidTestImplementation.espresso
