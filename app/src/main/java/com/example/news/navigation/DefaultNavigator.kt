@@ -7,9 +7,7 @@ import com.example.search_presentation.GoToSearchActivity
 
 class DefaultNavigator : Navigator.Provider {
 
-
     override fun getActivities(activities: Activities): Navigator {
-
         return when (activities) {
             Activities.NewsActivity -> {
                 GoToNewsActivity
