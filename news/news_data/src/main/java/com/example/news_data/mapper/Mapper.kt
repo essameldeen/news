@@ -7,10 +7,10 @@ import com.example.news_domain.model.Article
 fun ArticleDto.toDomainArticle(): Article {
 
     return Article(
-        author = this.author,
-        content = this.content,
-        description = this.description,
-        title = this.title,
-        urlToImage = this.urlToImage
+        author = this.author ?: "",
+        content = this.content ?: "",
+        description = this.description ?: "",
+        title = this.title ?: "",
+        urlToImage = this.urlToImage ?: ""
     )
 }

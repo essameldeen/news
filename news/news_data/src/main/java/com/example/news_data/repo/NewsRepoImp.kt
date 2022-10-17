@@ -7,6 +7,6 @@ import com.example.news_domain.repo.NewsRepository
 
 class NewsRepoImp(private val newsApiService: NewsApiService) : NewsRepository {
     override suspend fun getNewsArticle(): List<Article> {
-        return newsApiService.getNewsArticle().articles.map { it.toDomainArticle() }
+        return newsApiService.getNewsArticle("us").articles.map { it.toDomainArticle() }
     }
 }
