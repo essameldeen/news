@@ -29,6 +29,9 @@ object Versions {
     const val swipeRefresh = "1.1.0"
 
     const val lottieAnimations = "3.4.2"
+
+    const val kotlin = "1.6.10"
+    const val gradle = "7.0.4"
 }
 
 object Dependencies {
@@ -38,6 +41,9 @@ object Dependencies {
     const val androidMaterial = "com.google.android.material:material:${Versions.androidMaterial}"
     const val constraintLayout =
         "androidx.constraintlayout:constraintlayout:${Versions.constraintLayout}"
+
+    const val kotlin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlin}"
+    const val buildGradle = "com.android.tools.build:gradle:${Versions.gradle}"
 
 }
 
