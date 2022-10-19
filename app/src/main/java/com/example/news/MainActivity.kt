@@ -1,6 +1,8 @@
 package com.example.news
 
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.example.common_utils.Activities
@@ -24,6 +26,10 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        provider.getActivities(Activities.NewsActivity).navigate(this )
+        Handler(Looper.myLooper()!!).postDelayed({
+            provider.getActivities(Activities.NewsActivity).navigate(this)
+            finish()
+        }, 1500)
+
     }
 }
