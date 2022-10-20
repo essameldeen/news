@@ -17,5 +17,4 @@ class DefaultNavigator : Navigator.Provider {
             }
         }
     }
-
 }

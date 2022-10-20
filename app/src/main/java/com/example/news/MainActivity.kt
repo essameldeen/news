@@ -11,7 +11,6 @@ import com.example.news.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
-
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     @Inject
@@ -30,6 +29,5 @@ class MainActivity : AppCompatActivity() {
             provider.getActivities(Activities.NewsActivity).navigate(this)
             finish()
         }, 1500)
-
     }
 }
