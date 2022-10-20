@@ -12,4 +12,5 @@ This demo for multi module
 * View Model 
 * Lottie for animation 
 * Room DataBase 
+* Ktlint for format and stylist code 
 
