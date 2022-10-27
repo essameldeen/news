@@ -1,6 +1,8 @@
 plugins {
     id ("com.android.library")
     id ("kotlin-android")
+    id("kotlin-kapt")
+    id("com.google.dagger.hilt.android")
 }
 
 android {
@@ -35,6 +37,7 @@ android {
 
 dependencies {
 
+    implementation(project(":common:common_utils"))
     implementation (Dependencies.core)
     implementation( Dependencies.appCompat)
     implementation (Dependencies.androidMaterial)
@@ -42,4 +45,8 @@ dependencies {
     testImplementation (TestImplementation.junit)
     androidTestImplementation( AndroidTestImplementation.junit)
     androidTestImplementation (AndroidTestImplementation.espresso)
+
+    implementation(DaggerHilt.hilt)
+    kapt(DaggerHilt.hiltAndroidCompiler)
+    kapt(DaggerHilt.hiltCompiler)
 }
