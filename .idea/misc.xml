@@ -5,9 +5,12 @@
       <map>
         <entry key="../../.gradle/caches/transforms-3/c832db0cae9d8e3b4ad00368e9aeb556/transformed/material-1.6.1/res/drawable/mtrl_ic_error.xml" value="0.203125" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="news/news_presentation/src/main/res/drawable/ic_search.xml" value="0.32395833333333335" />
         <entry key="news/news_presentation/src/main/res/layout/activity_news.xml" value="0.42840095465393796" />
         <entry key="news/news_presentation/src/main/res/layout/view_holder_articles.xml" value="0.18697916666666667" />
+        <entry key="search/search_presentation/src/main/res/drawable/ic_baseline_calendar_today_24.xml" value="0.175" />
         <entry key="search/search_presentation/src/main/res/layout/activity_search.xml" value="0.3390625" />
+        <entry key="search/search_presentation/src/main/res/layout/view_holder_search_articles.xml" value="0.1" />
       </map>
     </option>
   </component>

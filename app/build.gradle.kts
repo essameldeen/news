@@ -60,6 +60,9 @@ dependencies {
     implementation(project(":news:news_domain"))
     implementation(project(":news:news_data"))
     implementation(project(":common:common_utils"))
+
+    implementation(project(":search:search_domain"))
+    implementation(project(":search:search_data"))
     implementation(Dependencies.core)
     implementation(Dependencies.appCompat)
     implementation(Dependencies.androidMaterial)
