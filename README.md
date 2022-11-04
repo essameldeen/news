@@ -1,7 +1,8 @@
 # news App Demo 
-This demo for multi module 
+This demo for multi module app 
+The app get all article from  api "https://newsapi.org/" and search for specific topic and filter with start and end data. 
  
-# Used In This Demo
+# Technology used 
 
 * split my app to modules each module have  [ domain - data - presentation ] module 
 * clean architecutre  
